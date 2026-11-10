@@ -1,0 +1,41 @@
+{
+  "schema": 2,
+  "date": "2026-11-07",
+  "code": {
+    "projects/faithful_decoding/core.py": "6f4505bdc77b099c38301a91f439cc027d31dd6403c623941f9d49982cbe147c",
+    "projects/report_agent/engine.py": "81755ae8e84e8ac42e85efe32b1dfac9e9a335cb972f149b74a33c5304213041",
+    "projects/report_agent/schema.py": "39092393ab394a2fbb71427c5385f5bde41382d4b6651482b7539a0523f05960",
+    "projects/report_agent/evidence.py": "781a8bc8db616f6d2b7feb358c4797bcf90a1d3774dd0776b9f59c6a2380d954",
+    "projects/paper_common/provider.py": "4153e60dcfdc3d92ec6ae9393b23575afd191d24dd7c2b80f8296dc369e4dc35",
+    "projects/paper_common/text.py": "ab4081484a6455666ab164c46a80a589e5264f5a4b3901c2c9a37dbeae798aa4"
+  },
+  "sources": "af7f0c8da34e74cc9f4308e7367ad20f18f2558ef261d00d762f055f5eb610f4",
+  "xsum": "cf6a154cf3055227cf4a69830a968e88f729d7b79e513e5a77920ed8250572c2",
+  "technical": "2bc70e972cfe3bf1605e6a5e3e0269b4a2410433264bc540d9a81cf3835fc026",
+  "decoding": {
+    "delta": 5,
+    "delta_min": 1,
+    "delta_max": 10,
+    "attention_weight": 0.6,
+    "cad_alpha": 1,
+    "max_source_tokens": 1024,
+    "max_new_tokens": 64,
+    "variant": "author_reference",
+    "selection": "original hyperparameters; semantic shift and source-attention softmax matched to pinned author code, prompted by dev degeneration; no test metrics used"
+  },
+  "report": {
+    "max_tokens": 16384,
+    "max_calls": 20,
+    "repair_rounds_per_section": 2,
+    "selection": "4096 and 8192 truncated on dev; all methods use 16384 before report test; JSON schema repair at most once"
+  },
+  "secondary_models": {
+    "hy4": "first 3 test source groups; both templates and all methods",
+    "qwen05b": "first 50 XSum test IDs; all seven methods"
+  },
+  "human_review": {
+    "required": true,
+    "status": "pending",
+    "sampling": "first 2 test documents × 2 templates × 4 report methods; first 10 XSum test IDs × greedy/context/token"
+  }
+}

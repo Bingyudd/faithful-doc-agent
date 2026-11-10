@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "date": "2026-11-07",
+  "code": {
+    "projects/faithful_decoding/core.py": "c00277938c11a86bed79777b3d9b84fe03c759181613640339145c4f69c89a19",
+    "projects/report_agent/engine.py": "e0670d31dd4f9983d39a342a9ac805b014423a281ba1ef2adf5487c1b656748f",
+    "projects/report_agent/schema.py": "b5c2eb8a72d9d90a199e25456ace0e661f33d0f1c60d8a4db0fcd8137f132cd0",
+    "projects/report_agent/evidence.py": "781a8bc8db616f6d2b7feb358c4797bcf90a1d3774dd0776b9f59c6a2380d954",
+    "projects/paper_common/provider.py": "451300ff440a1ea773cb8e228ed2f4ffec0c254540747da1f80f30625f8a4417",
+    "projects/paper_common/text.py": "ab4081484a6455666ab164c46a80a589e5264f5a4b3901c2c9a37dbeae798aa4"
+  },
+  "sources": "af7f0c8da34e74cc9f4308e7367ad20f18f2558ef261d00d762f055f5eb610f4",
+  "xsum": "cf6a154cf3055227cf4a69830a968e88f729d7b79e513e5a77920ed8250572c2",
+  "technical": "2bc70e972cfe3bf1605e6a5e3e0269b4a2410433264bc540d9a81cf3835fc026",
+  "decoding": {
+    "delta": 5,
+    "delta_min": 1,
+    "delta_max": 10,
+    "attention_weight": 0.6,
+    "cad_alpha": 1,
+    "max_source_tokens": 1024,
+    "max_new_tokens": 64,
+    "selection": "paper defaults; no test tuning"
+  },
+  "report": {
+    "max_tokens": 8192,
+    "max_calls": 20,
+    "repair_rounds_per_section": 2,
+    "selection": "4096 truncated on first dev document; all methods use 8192 before test"
+  },
+  "secondary_models": {
+    "hy4": "first 3 test source groups; both templates and all methods",
+    "qwen05b": "first 50 XSum test IDs; all seven methods"
+  },
+  "human_review": {
+    "required": true,
+    "status": "pending",
+    "sampling": "first 2 test documents × 2 templates × 4 report methods; first 10 XSum test IDs × greedy/context/token"
+  }
+}

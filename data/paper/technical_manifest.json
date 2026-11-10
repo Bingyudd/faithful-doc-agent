@@ -1,0 +1,11 @@
+{
+  "count": 100,
+  "source_split_hash": "af7f0c8da34e74cc9f4308e7367ad20f18f2558ef261d00d762f055f5eb610f4",
+  "sha256": "2bc70e972cfe3bf1605e6a5e3e0269b4a2410433264bc540d9a81cf3835fc026",
+  "selection": "up to 5 BM25 technical chunks per source; split by applicant family",
+  "counts": {
+    "dev": 40,
+    "test": 60
+  },
+  "reference_summary": "not available; evaluate source consistency and numeric precision separately"
+}

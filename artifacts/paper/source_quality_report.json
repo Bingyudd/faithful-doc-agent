@@ -1,0 +1,281 @@
+{
+  "sources": [
+    {
+      "id": "K260581",
+      "split": "dev",
+      "family": "karlstorzsecokg",
+      "pages_with_extracted_text": 8,
+      "characters": 16955,
+      "chunks": 19,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K252617",
+      "split": "dev",
+      "family": "intromediccoltd",
+      "pages_with_extracted_text": 6,
+      "characters": 9456,
+      "chunks": 13,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        5,
+        6
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K252858",
+      "split": "dev",
+      "family": "kmsmedicaltechnologycoltd",
+      "pages_with_extracted_text": 11,
+      "characters": 18385,
+      "chunks": 20,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K260423",
+      "split": "dev",
+      "family": "yangzhoufartleymedicalinstrumenttechnologycoltd",
+      "pages_with_extracted_text": 9,
+      "characters": 14677,
+      "chunks": 18,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K254291",
+      "split": "dev",
+      "family": "ezisurgmedicalcoltd",
+      "pages_with_extracted_text": 11,
+      "characters": 21952,
+      "chunks": 25,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K254170",
+      "split": "dev",
+      "family": "deganiasiliconeltd",
+      "pages_with_extracted_text": 7,
+      "characters": 6800,
+      "chunks": 11,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K260414",
+      "split": "dev",
+      "family": "techimagecoltd",
+      "pages_with_extracted_text": 12,
+      "characters": 19517,
+      "chunks": 24,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [
+        4
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K253217",
+      "split": "dev",
+      "family": "medimagingintegratedsolutionincmiis",
+      "pages_with_extracted_text": 11,
+      "characters": 16083,
+      "chunks": 21,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [
+        4
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K251951",
+      "split": "test",
+      "family": "guangzhouredpinemedicalinstrumentcoltd",
+      "pages_with_extracted_text": 10,
+      "characters": 22750,
+      "chunks": 26,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K261573",
+      "split": "test",
+      "family": "aktormedgmbh",
+      "pages_with_extracted_text": 3,
+      "characters": 6741,
+      "chunks": 8,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        4,
+        5,
+        6
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K262262",
+      "split": "test",
+      "family": "neptunemedicalinc",
+      "pages_with_extracted_text": 8,
+      "characters": 16457,
+      "chunks": 18,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [
+        4
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K252793",
+      "split": "test",
+      "family": "jiangsujiyuanmedicaltechnologycoltd",
+      "pages_with_extracted_text": 11,
+      "characters": 16499,
+      "chunks": 22,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [
+        4
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K260567",
+      "split": "test",
+      "family": "fujifilmcorporation",
+      "pages_with_extracted_text": 6,
+      "characters": 6897,
+      "chunks": 10,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        4,
+        5,
+        6
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K253184",
+      "split": "test",
+      "family": "zhuhaiweseemeditechcoltd",
+      "pages_with_extracted_text": 12,
+      "characters": 22179,
+      "chunks": 27,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K253134",
+      "split": "test",
+      "family": "lagisenterprisecoltd",
+      "pages_with_extracted_text": 8,
+      "characters": 12993,
+      "chunks": 16,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [
+        4
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K260573",
+      "split": "test",
+      "family": "evoendoinc",
+      "pages_with_extracted_text": 10,
+      "characters": 16854,
+      "chunks": 20,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K253892",
+      "split": "test",
+      "family": "strausssurgicalusa",
+      "pages_with_extracted_text": 7,
+      "characters": 10655,
+      "chunks": 14,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        5,
+        6,
+        7
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K253302",
+      "split": "test",
+      "family": "wilsoncookmedicalinc",
+      "pages_with_extracted_text": 7,
+      "characters": 13524,
+      "chunks": 17,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K261791",
+      "split": "test",
+      "family": "steris",
+      "pages_with_extracted_text": 13,
+      "characters": 29505,
+      "chunks": 33,
+      "has_summary_marker": true,
+      "has_performance_marker": true,
+      "sparse_pages": [],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    },
+    {
+      "id": "K251338",
+      "split": "test",
+      "family": "scivitamedicaltechnologycoltd",
+      "pages_with_extracted_text": 7,
+      "characters": 9024,
+      "chunks": 13,
+      "has_summary_marker": false,
+      "has_performance_marker": false,
+      "sparse_pages": [
+        5,
+        6,
+        7
+      ],
+      "classification": "heuristic only; missing markers may indicate scanned or differently titled technical material"
+    }
+  ],
+  "raw_pdf_hashes_verified": true,
+  "with_performance_marker": 14,
+  "manual_annotation": false
+}

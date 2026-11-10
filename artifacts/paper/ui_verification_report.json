@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "url": "http://127.0.0.1:8501",
+  "method": "CUA browser accessibility and screenshot inspection",
+  "page_title": "技术文档审校台",
+  "generation_controls_visible": true,
+  "saved_report_selector_visible": true,
+  "review_queue_total": 46,
+  "human_review_completed": 0,
+  "manual_review_form_visible": true,
+  "annotations_submitted_by_assistant": false,
+  "service_binding": "127.0.0.1 only",
+  "earlier_automatic_approval_limit": "resolved on retry; service startup verified"
+}

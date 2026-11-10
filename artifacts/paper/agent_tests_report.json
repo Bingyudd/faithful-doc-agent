@@ -1,0 +1,10 @@
+{
+  "interpreter": "C:\\Users\\Bingyu\\666\\Anaconda\\envs\\ai2resu-paper\\python.exe",
+  "device": "CPU unit tests; GPU inference validated separately",
+  "tests": 16,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "output": "test_budget (projects.report_agent.test_engine.AgentTests.test_budget) ... ok\ntest_claim_requires_confirmed_and_conditions (projects.report_agent.test_engine.AgentTests.test_claim_requires_confirmed_and_conditions) ... ok\ntest_completed_run_cached (projects.report_agent.test_engine.AgentTests.test_completed_run_cached) ... ok\ntest_correct_quote (projects.report_agent.test_engine.AgentTests.test_correct_quote) ... ok\ntest_forged_quote (projects.report_agent.test_engine.AgentTests.test_forged_quote) ... ok\ntest_json_repair_is_bounded (projects.report_agent.test_engine.AgentTests.test_json_repair_is_bounded) ... ok\ntest_missing_and_conflict_contract (projects.report_agent.test_engine.AgentTests.test_missing_and_conflict_contract) ... ok\ntest_repeated_json_failure_stops (projects.report_agent.test_engine.AgentTests.test_repeated_json_failure_stops) ... ok\ntest_resume_partial_sections (projects.report_agent.test_engine.AgentTests.test_resume_partial_sections) ... ok\ntest_search_document_isolation (projects.report_agent.test_engine.AgentTests.test_search_document_isolation) ... ok\ntest_unobserved_citation (projects.report_agent.test_engine.AgentTests.test_unobserved_citation) ... ok\ntest_wrong_numeric_unit (projects.report_agent.test_engine.AgentTests.test_wrong_numeric_unit) ... ok\ntest_wrong_product (projects.report_agent.test_engine.AgentTests.test_wrong_product) ... ok\ntest_manual_review_navigation_is_read_only (projects.report_agent.test_ui.UITests.test_manual_review_navigation_is_read_only) ... ok\ntest_open_saved_report (projects.report_agent.test_ui.UITests.test_open_saved_report) ... ok\ntest_start_and_upload_switch (projects.report_agent.test_ui.UITests.test_start_and_upload_switch) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.763s\n\nOK\n"
+}

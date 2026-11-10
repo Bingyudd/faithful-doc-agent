@@ -1,0 +1,498 @@
+{
+  "status": "complete",
+  "identity": {
+    "document": {
+      "id": "K251951",
+      "family": "guangzhouredpinemedicalinstrumentcoltd",
+      "applicant": "Guangzhou Red Pine Medical Instrument Co., Ltd.",
+      "device_name": "Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251951.pdf",
+      "sha256": "932ef3b5a64758e1f62feb918d3c2e8cb472f23da664e0a85010a97a0e732d07",
+      "file": "raw/K251951.pdf",
+      "decision_date": "2025-12-16",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    "source_hash": "34fe752c29432320ce4c61cd3e23645520434d0430d803686690c76e85748c66",
+    "template": "overview",
+    "method": "reviewed",
+    "model": "deepseek-v4.1-flash",
+    "version": "report-agent-v3",
+    "max_tokens": 16384,
+    "max_calls": 20,
+    "base_url": "http://127.0.0.1:8788/v1",
+    "implementation_hash": "c10a9eee91e0dd1996c92e1d6f934774091f4e768e26f34eeec80de0ffdbf416"
+  },
+  "run_id": "037a239d8a7857e3e61eb5853fb1f92a77344c8ea23da354510d889d5af8c177",
+  "report": {
+    "title": "Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F) — overview",
+    "target_document": "K251951",
+    "sections": [
+      {
+        "id": "identity",
+        "title": "产品与用途",
+        "status": "supported",
+        "statements": [
+          {
+            "text": "The subject device trade name is Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F).",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p5:c0",
+                "quote": "Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-\nC03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor\n(RP-IPD-V1000F)"
+              }
+            ]
+          },
+          {
+            "text": "The device is intended for endoscopy and endoscopic surgery within urinary tract and interior of the ureter and kidney, and has been developed to be used with endoscopic accessories and Endoscopic Video Image Processor.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c0",
+                "quote": "is intended for endoscopy and endoscopic surgery within urinary tract\nand interior of the ureter and kidney."
+              },
+              {
+                "source_id": "K251951:p6:c0",
+                "quote": "The device has been developed to be used with endoscopic accessories and Endoscopic Video Image\nProcessor for endoscopy and endoscopic surgery within urinary tract and interior of the ureter and\nkidney."
+              }
+            ]
+          }
+        ],
+        "notes": []
+      },
+      {
+        "id": "design",
+        "title": "设计与技术特征",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The supplied comparison text reports that the proposed device has an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device, and that its minimum instrument channel width is extremely close to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device. The minimum\ninstrument channel width of the proposed device is also extremely close to the predicate\ndevice."
+              }
+            ]
+          },
+          {
+            "text": "The same comparison text also states that the main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion portion, maximum insertion portion width, bending angle, and depth of field of the proposed device are different to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion\nportion, maximum insertion portion width, bending angle and depth of field of the proposed device are different\nto the predicate device."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Within the supplied excerpts, a detailed component-level list was not found; this draft is limited to the reported comparison statements.",
+          "The quoted p8:c0 table excerpt does not explicitly identify proposed-device versus predicate-device value columns; therefore, numeric table values are not attributed to the subject device in the statements.",
+          "The p8:c0 depth-of-field row shows a 3～50mm depth value with a tolerance stated as ± 10°; the intended unit or condition requires clarification."
+        ]
+      },
+      {
+        "id": "limitations",
+        "title": "使用条件与限制",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The Single-Use Video Flexible Ureterorenoscope is single-use and has a stated shelf life of 3 years; sterilization was validated in accordance with ISO 11135:2014.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p10:c0",
+                "quote": "The Single-Use Video Flexible Ureterorenoscope contains a shelf life of 3 years. Sterilization was validated in accordance with ISO 11135:2014."
+              }
+            ]
+          },
+          {
+            "text": "The device is intended to be used with endoscopic accessories and an Endoscopic Video Image Processor for endoscopy and endoscopic surgery within the urinary tract and the interior of the ureter and kidney.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p4:c0",
+                "quote": "The device has been developed to be used with endoscopic accessories and Endoscopic Video Image Processor for\nendoscopy and endoscopic surgery within urinary tract and interior of the ureter and kidney."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The supplied source material does not include explicit warnings, contraindications, reusable-use instructions, or a defined patient population for the subject device.",
+          "Absence of these details in the retrieved source text should not be treated as proof that the complete document lacks such information."
+        ]
+      }
+    ]
+  },
+  "markdown": "# Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F) — overview\n\n## 产品与用途\n\nThe subject device trade name is Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F). [K251951:p5:c0]\n\nThe device is intended for endoscopy and endoscopic surgery within urinary tract and interior of the ureter and kidney, and has been developed to be used with endoscopic accessories and Endoscopic Video Image Processor. [K251951:p6:c0] [K251951:p6:c0]\n\n\n## 设计与技术特征\n\n状态：review_required\n\nThe supplied comparison text reports that the proposed device has an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device, and that its minimum instrument channel width is extremely close to the predicate device. [K251951:p6:c1]\n\nThe same comparison text also states that the main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion portion, maximum insertion portion width, bending angle, and depth of field of the proposed device are different to the predicate device. [K251951:p6:c1]\n\n- Within the supplied excerpts, a detailed component-level list was not found; this draft is limited to the reported comparison statements.\n- The quoted p8:c0 table excerpt does not explicitly identify proposed-device versus predicate-device value columns; therefore, numeric table values are not attributed to the subject device in the statements.\n- The p8:c0 depth-of-field row shows a 3～50mm depth value with a tolerance stated as ± 10°; the intended unit or condition requires clarification.\n\n## 使用条件与限制\n\n状态：review_required\n\nThe Single-Use Video Flexible Ureterorenoscope is single-use and has a stated shelf life of 3 years; sterilization was validated in accordance with ISO 11135:2014. [K251951:p10:c0]\n\nThe device is intended to be used with endoscopic accessories and an Endoscopic Video Image Processor for endoscopy and endoscopic surgery within the urinary tract and the interior of the ureter and kidney. [K251951:p4:c0]\n\n- The supplied source material does not include explicit warnings, contraindications, reusable-use instructions, or a defined patient population for the subject device.\n- Absence of these details in the retrieved source text should not be treated as proof that the complete document lacks such information.\n",
+  "audits": {
+    "identity": [],
+    "design": [],
+    "limitations": []
+  },
+  "evidence": {
+    "K251951:p6:c0": {
+      "id": "K251951:p6:c0",
+      "document_id": "K251951",
+      "page": 6,
+      "text": "K251951\nPage 2 of 6\nIV. Device Description Summary\nThe proposed device, Ureterorenoscope System, which includes a Single-Use Video Flexible\nUreterorenoscope, an Endoscopic Video Image Processor (model: RP-IPD-V2000EF) which has been\ncleared under K241500 and an Endoscopic Video Image Processor (model: RP-IPD-V1000F) which\nhas been cleared under K243321 is intended for endoscopy and endoscopic surgery within urinary tract\nand interior of the ureter and kidney.\nV. Indications for use\nThe device has been developed to be used with endoscopic accessories and Endoscopic Video Image\nProcessor for endoscopy and endoscopic surgery within urinary tract and interior of the ureter and\nkidney.\nVI. Indications for Use Comparison\nThe indication for use (IFU) of the proposed device and the predicate device are similar. They have the\nsame principle of operation, and target location. Therefore, the difference in description does not affect\nthe safety and effectiveness of the proposed device.\nVII. Technological Comparison"
+    },
+    "K251951:p1:c0": {
+      "id": "K251951:p1:c0",
+      "document_id": "K251951",
+      "page": 1,
+      "text": "December 16, 2025\nGuangzhou Red Pine Medical Instrument Co., Ltd.\nPing Yang\nRegulatory Affairs Manager\n12 F, No.87 Luoxuan Avenue\nGuangzhou International Bioisland, Huangpu District\nGuangzhou, Guangdong 510000\nChina\nRe: K251951\nTrade/Device Name: Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3,\nRP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-\nV2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F)\nRegulation Number: 21 CFR 876.1500\nRegulation Name: Endoscope and Accessories\nRegulatory Class: II\nProduct Code: FGB\nDated: November 19, 2025\nReceived: November 19, 2025\nDear Ping Yang:\nWe have reviewed your section 510(k) premarket notification of intent to market the device referenced above\nand have determined the device is substantially equivalent (for the indications for use stated in the enclosure)\nto legally marketed predicate devices marketed in interstate commerce prior to May 28, 1976, the enactment\ndate of the Medical Device Amendments, or to devices that have been reclassified in accordance with the"
+    },
+    "K251951:p5:c0": {
+      "id": "K251951:p5:c0",
+      "document_id": "K251951",
+      "page": 5,
+      "text": "K251951\nPage 1 of 6\n510(k) Summary\nI. Contact Details\nSubmitter Name: Guangzhou Red Pine Medical Instrument Co., Ltd.\nSubmitter Address: 12 F, No.87 Luoxuan Avenue, Guangzhou International Bioisland, Huangpu\nDistrict Guangzhou Guangdong 510000 China\nSubmitter Contact Telephone: +86 13902971205\nSubmitter Contact: Mr. Weihua Yang\nSubmitter Contact Email: regulation@gzredpine.com\nCorrespondent Name: Guangzhou Red Pine Medical Instrument Co., Ltd.\nCorrespondent Address: 12 F, No.87 Luoxuan Avenue, Guangzhou International Bioisland, Huangpu\nDistrict Guangzhou Guangdong 510000 China\nCorrespondent Contact Telephone: +86 18565651640\nCorrespondent Contact: Ms. Ping Yang\nCorrespondent Contact Email: regulation@gzredpine.com\nDate prepared: December 4, 2025\nII. Subject Device\nDevice Trade Name:\nSingle-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-\nC03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor\n(RP-IPD-V1000F)\nCommon Name: Endoscope and accessories\nClassification Number: 21 CFR 876.1500\nRegulatory Class: II"
+    },
+    "K251951:p5:c1": {
+      "id": "K251951:p5:c1",
+      "document_id": "K251951",
+      "page": 5,
+      "text": "Classification Name: Ureteroscope and accessories, flexible/rigid\nProduct Code: FGB\nIII. Legally Marketed Predicate Device\nPredicate 510(k) Number: K221158\nDevice name: Single-Use Video Flexible Ureterorenoscope System\nProduct Code: FGB\nNote: This predicate device has not been subject to a design-related recall."
+    },
+    "K251951:p8:c0": {
+      "id": "K251951:p8:c0",
+      "document_id": "K251951",
+      "page": 8,
+      "text": "K251951\nPage 4 of 6\nΦ2.9mm(8.7Fr) for RP-U-C12\nOD of flexible Similar\nΦ2.50 mm (7.5 Fr) Φ2.85mm(8.6Fr) for RP-U-\ninsertion portion Analysis 5\nC0304/ RP-U-C0305\nMaximum 3.2mm (9.6Fr) for RP-U-C12\nSimilar\nInsertion Portion 2.75 mm (8.25 Fr) 3.15mm (9.5Fr) for RP-U-C0304\nAnalysis 6\nWidth 3.18mm (9.5Fr) for RP-U-C0305\nMinimum\nSimilar\nInstrument 1.10 mm (3.3 Fr) 1.2mm (3.6Fr)\nAnalysis 7\nChannel Width\nWorking Length 670 mm, tolerance: ±3% 670 mm, tolerance: ±3% Same\nUp 285°, Down 285° Up 275°, Down 275° Similar\nBending Angle\ntolerance ±15° tolerance ±15° Analysis 8\nField of View 120°, tolerance: ±15% 120°, tolerance: ±15% Same\nSimilar\nDepth of Field 3～50mm, tolerance ± 10° 5～50mm, tolerance ± 10°\nAnalysis 9\nDirection of\n0°, tolerance:± 10° 0°, tolerance:± 10° Same\nView\nSimilar Analysis 5- Outer Diameter (OD) of flexible insertion portion\nThe OD of the flexible insertion portion is similar to the predicate device. The diameter meets the\nindustrial standard.\nIn addition, the nominal value of the proposed device is less than that of the predicate device. The"
+    },
+    "K251951:p6:c1": {
+      "id": "K251951:p6:c1",
+      "document_id": "K251951",
+      "page": 6,
+      "text": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device. The minimum\ninstrument channel width of the proposed device is also extremely close to the predicate\ndevice.\nThe main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion\nportion, maximum insertion portion width, bending angle and depth of field of the proposed device are different\nto the predicate device. These differences do not raise new question on safety and\neffectiveness of the proposed device based on the comparative test report of the proposed device and\npredicate device. See the following table 1 and table 2 for the detailed comparison information.\nTable 1: Specifications Comparison of Endoscopic Image Processor\nProposed device Proposed device Predicate device\nItem (Image Processor RP- (Image Processor RP- (Image Processor Remark\nIPD-V2000EF) IPD-V1000F) RP-IPD-V800)\nModel RP-IPD-V2000EF RP-IPD-V1000F RP-IPD-V800 /\n211mm Similar"
+    },
+    "K251951:p9:c1": {
+      "id": "K251951:p9:c1",
+      "document_id": "K251951",
+      "page": 9,
+      "text": "The optical performance testing includes direction of view, field of view, depth of field, resolution,\nsignal-to-noise ratio, geometric distortion, image intensity uniformity, dynamic range and color\nperformance.\nThe mechanical performance testing includes basic size, surface and edges, water delivery system,\nbending control system, sealing performance, compatibility with accessories, fatigue test of rocker and\nbending section, tensile strength of insertion portion, performance of cable connector, comprehensive\nperformance of luer connector.\n2.Performance comparative testing:\nThe performance comparative testing was conducted on the proposed Ureterorenoscope system and the\npredicate system, the performance testing includes optical performance and mechanical performance.\nThe performance comparative testing includes ISO 8600 test, and the ISO 8600 test results demonstrated\nthat the proposed system complies with the standard requirements.\nThe optical performance testing includes direction of view, field of view, depth of field, resolution,"
+    },
+    "K251951:p8:c2": {
+      "id": "K251951:p8:c2",
+      "document_id": "K251951",
+      "page": 8,
+      "text": "predicate device are the same, it can be considered that the minimum width of instrument channel of\nthe proposed device is equivalent to that of the predicate device.\nSimilar Analysis 8- Bending Angle\nThe Bending Angle of the proposed device is similar to the predicate device.\nAlthough the measured value and nominal value of the proposed device is slightly higher than that of\nthe predicate device, the proposed endoscope meets the angle requirement during endoscopic\nobservation and diagnosis. Therefore, the slight difference on bending angle between the proposed\ndevice and predicate device does not affect the safety and effectiveness of the proposed device.\nSimilar Analysis 9- Depth of Field\nThe Depth of Field of proposed device is similar as the predicate device.\nBased on the test result of Performance Comparison Test Report, the resolution test value of the"
+    },
+    "K251951:p7:c0": {
+      "id": "K251951:p7:c0",
+      "document_id": "K251951",
+      "page": 7,
+      "text": "K251951\nPage 3 of 6\nBrightness\nYes Yes Yes Same\nadjustment\nSimilar\n0.5X →1.0X→\nZOOM 1.0X → 1.4X → 1.6X 1.0X → 1.4X → 1.6X Analysis\n2.0X → 3.0X\n3\nType of\nprotection Similar\nagainst Class I device Class I device Class II device Analysis\nelectric 4\nshock\nDegree of\nprotection\ntype BF applied\nagainst type BF applied part type BF applied part Same\npart\nelectric\nshock\nSimilar Analysis 1-Dimension and Weight\nThe dimension and weight for the proposed image processors are different from the predicate device.\nThe dimension and weight in physical specification differences do not raise any issues in safety and\neffectiveness of the proposed device.\nSimilar Analysis 2- Video signal output\nThe proposed device has two additional video signal outputs compared to the predicate device.\nSpecifically, a DVI interface and an SDI interface; the difference on video signal output does not\naffect the safety and effectiveness of the proposed device based on the following reasons:\na. Both the proposed system and predicate system are the high-definition endoscope system; they all"
+    },
+    "K251951:p10:c0": {
+      "id": "K251951:p10:c0",
+      "document_id": "K251951",
+      "page": 10,
+      "text": "K251951\nPage 6 of 6\nThe FDA guidance, “Use of International Standard ISO 10993-1, \"Biological evaluation of medical\ndevices - Part 1: Evaluation and testing within a risk management process\" and International Standard\nISO 10993-1 “Biological Evaluation of Medical Devices − Part 1: Evaluation and Testing Within a Risk\nManagement Process,” was used.\n4.Sterilization and Shelf life testing:\nThe Single-Use Video Flexible Ureterorenoscope contains a shelf life of 3 years. Sterilization was\nvalidated in accordance with ISO 11135:2014. Shelf life testing was conducted in accordance with\nASTM F1980-21. Package validation was conducted according to ASTM F1886/F1886M-16, ASTM\nD4169-23, ASTM F1929-23, and ASTM F88/F88-23.\n5.Electrical safety and electromagnetic compatibility (EMC)\nElectrical safety and EMC testing was conducted on the Single-Use Video Flexible Ureterorenoscope\nand Endoscopic Video Image Processors (RP-IPD-V2000EF and RP-IPD-V1000F) in accordance with\nIEC 60601-1:2005/AMD1:2012/AMD2:2020, IEC 60601-2-18:2009, and IEC 60601-1-\n2:2014+A1:2020, EN 60601-1-2:2015+A1:2021"
+    },
+    "K251951:p7:c2": {
+      "id": "K251951:p7:c2",
+      "document_id": "K251951",
+      "page": 7,
+      "text": "device is substantially equivalent to the predicate in safety and effectiveness, as the electrical\nprotection method difference.\nTable 2: Specifications Comparison of Single-Use Video Flexible Ureterorenoscope\nPredicate Device\nProposed Device\n(Single-Use Video Flexible\nItem (Single-Use Video Flexible Remark\nUreterorenoscope)\nUreterorenoscope)\nK221158\nRP-U-C12\nRP-U-C03R9,RP-U-C03R3,\nModel RP-U-C0304 /\nRP-U-C03S9, RP-U-C03S3\nRP-U-C0305"
+    },
+    "K251951:p4:c0": {
+      "id": "K251951:p4:c0",
+      "document_id": "K251951",
+      "page": 4,
+      "text": "DEPARTMENT OF HEALTH AND HUMAN SERVICES Form Approved: OMB No. 0910-0120\nFood and Drug Administration\nExpiration Date: 07/31/2026\nIndications for Use See PRA Statement below.\n510(k) Number (if known)\nK251951\nDevice Name\nSingle-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image\nProcessor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F)\nIndications for Use (Describe)\nThe device has been developed to be used with endoscopic accessories and Endoscopic Video Image Processor for\nendoscopy and endoscopic surgery within urinary tract and interior of the ureter and kidney.\nType of Use (Select one or both, as applicable)\nPrescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter Use (21 CFR 801 Subpart C)\nCONTINUE ON A SEPARATE PAGE IF NEEDED.\nThis section applies only to requirements of the Paperwork Reduction Act of 1995.\n*DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW.*\nThe burden time for this collection of information is estimated to average 79 hours per response, including the"
+    }
+  },
+  "revisions": [
+    {
+      "section": "design",
+      "round": 1,
+      "before": {
+        "id": "design",
+        "title": "设计与技术特征",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The proposed device is described as containing an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device."
+              }
+            ]
+          },
+          {
+            "text": "In the supplied comparison table, proposed-device values include a flexible insertion portion OD of 2.50 mm (7.5 Fr), a maximum insertion portion width of 2.75 mm (8.25 Fr), a minimum instrument channel width of 1.10 mm (3.3 Fr), a working length of 670 mm with ±3% tolerance, a field of view of 120° with ±15% tolerance, a direction of view of 0° with ±10° tolerance, a bending angle of Up 285°/Down 285° with ±15° tolerance, and a depth of field of 3～50 mm with tolerance ± 10°.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p8:c0",
+                "quote": "OD of flexible Similar\nΦ2.50 mm (7.5 Fr) Φ2.85mm(8.6Fr) for RP-U-\ninsertion portion Analysis 5\nC0304/ RP-U-C0305\nMaximum 3.2mm (9.6Fr) for RP-U-C12\nSimilar\nInsertion Portion 2.75 mm (8.25 Fr) 3.15mm (9.5Fr) for RP-U-C0304\nAnalysis 6\nWidth 3.18mm (9.5Fr) for RP-U-C0305\nMinimum\nSimilar\nInstrument 1.10 mm (3.3 Fr) 1.2mm (3.6Fr)\nAnalysis 7\nChannel Width\nWorking Length 670 mm, tolerance: ±3% 670 mm, tolerance: ±3% Same\nUp 285°, Down 285° Up 275°, Down 275° Similar\nBending Angle\ntolerance ±15° tolerance ±15° Analysis 8\nField of View 120°, tolerance: ±15% 120°, tolerance: ±15% Same\nSimilar\nDepth of Field 3～50mm, tolerance ± 10° 5～50mm, tolerance ± 10°\nAnalysis 9\nDirection of\n0°, tolerance:± 10° 0°, tolerance:± 10° Same\nView"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The cited p8 table extraction does not show explicit column headers; proposed-device values are identified from the first value column and the narrative that the proposed OD nominal value is less than the predicate.",
+          "The supplied excerpts do not include a detailed component-level list; this draft is limited to the provided design description and dimensional/optical comparison table."
+        ]
+      },
+      "after": {
+        "id": "design",
+        "title": "设计与技术特征",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The supplied text states that the proposed device has an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device, and that its minimum instrument channel width is extremely close to the predicate device; it also states that main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion portion, maximum insertion portion width, bending angle and depth of field are different to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device. The minimum\ninstrument channel width of the proposed device is also extremely close to the predicate\ndevice."
+              },
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion\nportion, maximum insertion portion width, bending angle and depth of field of the proposed device are different\nto the predicate device."
+              }
+            ]
+          },
+          {
+            "text": "The comparison table includes 2.50 mm (7.5 Fr) for OD of flexible insertion portion, 2.75 mm (8.25 Fr) for maximum insertion portion width, 1.10 mm (3.3 Fr) for minimum instrument channel width, 670 mm working length with ±3% tolerance, 120° field of view with ±15% tolerance, 0° direction of view with ± 10° tolerance, Up 285°/Down 285° bending angle with ±15° tolerance, and 3～50mm depth of field with ± 10° tolerance.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p8:c0",
+                "quote": "OD of flexible Similar\nΦ2.50 mm (7.5 Fr) Φ2.85mm(8.6Fr) for RP-U-\ninsertion portion Analysis 5\nC0304/ RP-U-C0305\nMaximum 3.2mm (9.6Fr) for RP-U-C12\nSimilar\nInsertion Portion 2.75 mm (8.25 Fr) 3.15mm (9.5Fr) for RP-U-C0304\nAnalysis 6\nWidth 3.18mm (9.5Fr) for RP-U-C0305\nMinimum\nSimilar\nInstrument 1.10 mm (3.3 Fr) 1.2mm (3.6Fr)\nAnalysis 7\nChannel Width\nWorking Length 670 mm, tolerance: ±3% 670 mm, tolerance: ±3% Same\nUp 285°, Down 285° Up 275°, Down 275° Similar\nBending Angle\ntolerance ±15° tolerance ±15°\nField of View 120°, tolerance: ±15% 120°, tolerance: ±15% Same\nSimilar\nDepth of Field 3～50mm, tolerance ± 10° 5～50mm, tolerance ± 10°\nAnalysis 9\nDirection of\n0°, tolerance:± 10° 0°, tolerance:± 10° Same\nView"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The p8:c0 table extraction lacks explicit proposed-device/predicate-device column headers; attribution of individual table rows to the subject device is not established from the quoted table text alone.",
+          "The p8:c0 depth-of-field row states a tolerance of ± 10° for a 3～50mm depth value; the intended tolerance unit or condition requires clarification.",
+          "The supplied excerpts do not include a detailed component-level list; this draft is limited to the provided design description and dimensional/optical comparison table."
+        ]
+      },
+      "before_errors": [
+        {
+          "statement": 1,
+          "code": "unsupported_number_or_unit",
+          "values": [
+            "2.50 mm",
+            "50 mm"
+          ]
+        }
+      ],
+      "after_errors": [
+        {
+          "statement": 1,
+          "code": "quote_not_in_source",
+          "source_id": "K251951:p8:c0"
+        },
+        {
+          "statement": 1,
+          "code": "unsupported_number_or_unit",
+          "values": [
+            "0",
+            "1.10 mm",
+            "10",
+            "120",
+            "15",
+            "15%",
+            "2.50 mm",
+            "2.75 mm",
+            "285",
+            "3",
+            "3%",
+            "3.3",
+            "50mm",
+            "670 mm",
+            "7.5",
+            "8.25"
+          ]
+        }
+      ],
+      "critic": [
+        "Statement 2: The extracted comparison table lacks explicit proposed-device/predicate-device column headers; proposed-device attribution for rows beyond the OD row is inferred from column order and narrative rather than directly established by the quoted table text.",
+        "Statement 2: Depth-of-field tolerance is reported as ±10°, a degree unit applied to a millimetre depth value; the source table contains the same unit inconsistency, so the intended tolerance unit or condition needs clarification before finalizing."
+      ]
+    },
+    {
+      "section": "design",
+      "round": 2,
+      "before": {
+        "id": "design",
+        "title": "设计与技术特征",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The supplied text states that the proposed device has an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device, and that its minimum instrument channel width is extremely close to the predicate device; it also states that main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion portion, maximum insertion portion width, bending angle and depth of field are different to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device. The minimum\ninstrument channel width of the proposed device is also extremely close to the predicate\ndevice."
+              },
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion\nportion, maximum insertion portion width, bending angle and depth of field of the proposed device are different\nto the predicate device."
+              }
+            ]
+          },
+          {
+            "text": "The comparison table includes 2.50 mm (7.5 Fr) for OD of flexible insertion portion, 2.75 mm (8.25 Fr) for maximum insertion portion width, 1.10 mm (3.3 Fr) for minimum instrument channel width, 670 mm working length with ±3% tolerance, 120° field of view with ±15% tolerance, 0° direction of view with ± 10° tolerance, Up 285°/Down 285° bending angle with ±15° tolerance, and 3～50mm depth of field with ± 10° tolerance.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p8:c0",
+                "quote": "OD of flexible Similar\nΦ2.50 mm (7.5 Fr) Φ2.85mm(8.6Fr) for RP-U-\ninsertion portion Analysis 5\nC0304/ RP-U-C0305\nMaximum 3.2mm (9.6Fr) for RP-U-C12\nSimilar\nInsertion Portion 2.75 mm (8.25 Fr) 3.15mm (9.5Fr) for RP-U-C0304\nAnalysis 6\nWidth 3.18mm (9.5Fr) for RP-U-C0305\nMinimum\nSimilar\nInstrument 1.10 mm (3.3 Fr) 1.2mm (3.6Fr)\nAnalysis 7\nChannel Width\nWorking Length 670 mm, tolerance: ±3% 670 mm, tolerance: ±3% Same\nUp 285°, Down 285° Up 275°, Down 275° Similar\nBending Angle\ntolerance ±15° tolerance ±15°\nField of View 120°, tolerance: ±15% 120°, tolerance: ±15% Same\nSimilar\nDepth of Field 3～50mm, tolerance ± 10° 5～50mm, tolerance ± 10°\nAnalysis 9\nDirection of\n0°, tolerance:± 10° 0°, tolerance:± 10° Same\nView"
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "The p8:c0 table extraction lacks explicit proposed-device/predicate-device column headers; attribution of individual table rows to the subject device is not established from the quoted table text alone.",
+          "The p8:c0 depth-of-field row states a tolerance of ± 10° for a 3～50mm depth value; the intended tolerance unit or condition requires clarification.",
+          "The supplied excerpts do not include a detailed component-level list; this draft is limited to the provided design description and dimensional/optical comparison table."
+        ]
+      },
+      "after": {
+        "id": "design",
+        "title": "设计与技术特征",
+        "status": "review_required",
+        "statements": [
+          {
+            "text": "The supplied comparison text reports that the proposed device has an identical principle of operation, single use/reusability, white balance, brightness adjustment, working length, field of view, and direction of view to the predicate device, and that its minimum instrument channel width is extremely close to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The proposed device contains an identical principle of operation, single use/reusability, white balance, brightness\nadjustment, working length, field of view, and direction of view to the predicate device. The minimum\ninstrument channel width of the proposed device is also extremely close to the predicate\ndevice."
+              }
+            ]
+          },
+          {
+            "text": "The same comparison text also states that the main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion portion, maximum insertion portion width, bending angle, and depth of field of the proposed device are different to the predicate device.",
+            "target_document": "K251951",
+            "citations": [
+              {
+                "source_id": "K251951:p6:c1",
+                "quote": "The main configuration, dimension and weight, video signal output, zoom, OD of flexible insertion\nportion, maximum insertion portion width, bending angle and depth of field of the proposed device are different\nto the predicate device."
+              }
+            ]
+          }
+        ],
+        "notes": [
+          "Within the supplied excerpts, a detailed component-level list was not found; this draft is limited to the reported comparison statements.",
+          "The quoted p8:c0 table excerpt does not explicitly identify proposed-device versus predicate-device value columns; therefore, numeric table values are not attributed to the subject device in the statements.",
+          "The p8:c0 depth-of-field row shows a 3～50mm depth value with a tolerance stated as ± 10°; the intended unit or condition requires clarification."
+        ]
+      },
+      "before_errors": [
+        {
+          "statement": 1,
+          "code": "quote_not_in_source",
+          "source_id": "K251951:p8:c0"
+        },
+        {
+          "statement": 1,
+          "code": "unsupported_number_or_unit",
+          "values": [
+            "0",
+            "1.10 mm",
+            "10",
+            "120",
+            "15",
+            "15%",
+            "2.50 mm",
+            "2.75 mm",
+            "285",
+            "3",
+            "3%",
+            "3.3",
+            "50mm",
+            "670 mm",
+            "7.5",
+            "8.25"
+          ]
+        }
+      ],
+      "after_errors": [],
+      "critic": [
+        "Statement 2 relies on a headerless table excerpt; the quote does not establish which numeric column belongs to the proposed device versus the predicate device, so subject/predicate attribution of the listed dimensions and optical values is not supported by the quote alone.",
+        "Statement 2 reports depth-of-field tolerance as '± 10°' for a 3–50 mm depth-of-field value; the source uses a degree unit for a distance tolerance, so the unit/condition is ambiguous and requires clarification.",
+        "Statement 2 lists values such as 2.50 mm, 2.75 mm, 1.10 mm, 670 mm, 120°, 0°, 285°, and 3–50 mm without device-column attribution; this can imply proposed-device characteristics that the quoted table does not identify."
+      ]
+    }
+  ],
+  "usage": {
+    "requests": 9,
+    "prompt_tokens": 20157,
+    "completion_tokens": 33072,
+    "seconds": 186.40813660000015,
+    "reported_models": [
+      "deepseek-v4.1-flash"
+    ]
+  },
+  "events": [
+    {
+      "type": "retrieve",
+      "document": "K251951",
+      "query": "device description intended use indications trade name subject device",
+      "source_ids": [
+        "K251951:p6:c0",
+        "K251951:p1:c0",
+        "K251951:p5:c0",
+        "K251951:p5:c1"
+      ]
+    },
+    {
+      "type": "retrieve",
+      "document": "K251951",
+      "query": "subject device design technical characteristics diameter working length field of view components",
+      "source_ids": [
+        "K251951:p8:c0",
+        "K251951:p6:c1",
+        "K251951:p9:c1",
+        "K251951:p5:c1"
+      ]
+    },
+    {
+      "type": "retrieve",
+      "document": "K251951",
+      "query": "subject device design technical characteristics diameter working length field of view components Statement 2: The extracted comparison table lacks explicit proposed-device/predicate-device column headers; proposed-device attribution for rows beyond the OD row is inferred from column order and narrative rather than directly established by the quoted table text. Statement 2: Depth-of-field tolerance is reported as ±10°, a degree unit applied to a millimetre depth value; the source table contains the same unit inconsistency, so the intended tolerance unit or condition needs clarification before finalizing.",
+      "source_ids": [
+        "K251951:p8:c0",
+        "K251951:p6:c1",
+        "K251951:p8:c2",
+        "K251951:p7:c0"
+      ]
+    },
+    {
+      "type": "retrieve",
+      "document": "K251951",
+      "query": "subject device design technical characteristics diameter working length field of view components Statement 2 relies on a headerless table excerpt; the quote does not establish which numeric column belongs to the proposed device versus the predicate device, so subject/predicate attribution of the listed dimensions and optical values is not supported by the quote alone. Statement 2 reports depth-of-field tolerance as '± 10°' for a 3–50 mm depth-of-field value; the source uses a degree unit for a distance tolerance, so the unit/condition is ambiguous and requires clarification. Statement 2 lists values such as 2.50 mm, 2.75 mm, 1.10 mm, 670 mm, 120°, 0°, 285°, and 3–50 mm without device-column attribution; this can imply proposed-device characteristics that the quoted table does not identify.",
+      "source_ids": [
+        "K251951:p8:c0",
+        "K251951:p6:c1",
+        "K251951:p8:c2",
+        "K251951:p9:c1"
+      ]
+    },
+    {
+      "type": "retrieve",
+      "document": "K251951",
+      "query": "single use reusable sterilization warnings contraindications limitations patient population",
+      "source_ids": [
+        "K251951:p10:c0",
+        "K251951:p7:c2",
+        "K251951:p5:c1",
+        "K251951:p4:c0"
+      ]
+    }
+  ],
+  "human_review": "pending; model critique is not human adjudication"
+}

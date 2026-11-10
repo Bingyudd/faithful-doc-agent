@@ -1,0 +1,6 @@
+{
+  "id": "bunsenfeng/FactKB",
+  "revision": "d56496a37c37331ed7c76df8af9a0a510ea7b28b",
+  "tokenizer": "FacebookAI/roberta-base",
+  "tokenizer_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b"
+}

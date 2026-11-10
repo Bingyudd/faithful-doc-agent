@@ -1,0 +1,282 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "K260581",
+      "family": "karlstorzsecokg",
+      "applicant": "Karl Storz SE & CO. KG",
+      "device_name": "KARL STORZ Flexible Video Neuro-Endoscope",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260581.pdf",
+      "sha256": "747484d9a140f6680036ff2cb751fb6448962052426945190dcbd76706726882",
+      "file": "raw/K260581.pdf",
+      "decision_date": "2026-10-14",
+      "sparse_pages": [],
+      "split": "dev"
+    },
+    {
+      "id": "K252617",
+      "family": "intromediccoltd",
+      "applicant": "Intromedic Co., Ltd.",
+      "device_name": "MiroCam® Capsule Endoscope System",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252617.pdf",
+      "sha256": "b1fb4448a54aec5da90d41b5b2116431d3ea007142d268beab52fd8e42b27f96",
+      "file": "raw/K252617.pdf",
+      "decision_date": "2026-05-08",
+      "sparse_pages": [
+        5,
+        6
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "K252858",
+      "family": "kmsmedicaltechnologycoltd",
+      "applicant": "Kms Medical Technology Co., Ltd.",
+      "device_name": "4K UHD Endoscopy Camera System (KMS-4K-2088, KMS-4K-2188, KMS-4K-2288)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252858.pdf",
+      "sha256": "5dde86bab80f176bc22f319e9834b4a907dfd134b0355525478f226303d8fb91",
+      "file": "raw/K252858.pdf",
+      "decision_date": "2026-04-30",
+      "sparse_pages": [],
+      "split": "dev"
+    },
+    {
+      "id": "K260423",
+      "family": "yangzhoufartleymedicalinstrumenttechnologycoltd",
+      "applicant": "Yangzhou Fartley Medical Instrument Technology Co., Ltd.",
+      "device_name": "Disposable Endoscopic Distal Attachments",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260423.pdf",
+      "sha256": "dbc5e9c86d8a1478d868f8299bef0da2ba8f09bc020cf6eb9fbc53ab45aacdb8",
+      "file": "raw/K260423.pdf",
+      "decision_date": "2026-05-28",
+      "sparse_pages": [],
+      "split": "dev"
+    },
+    {
+      "id": "K254291",
+      "family": "ezisurgmedicalcoltd",
+      "applicant": "Ezisurg Medical Co., Ltd.",
+      "device_name": "easyEndo E-Lite Single Use Powered Endoscopic Staplers; easyEndo E-Lite Single Use Powered Endoscopic Staplers with Curved Tip; easyEndo E-Lite Single Use Cartridges",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254291.pdf",
+      "sha256": "16b84c57928ff1fa9e923be4fbbde248350e1f82656af22e978a895841641c3d",
+      "file": "raw/K254291.pdf",
+      "decision_date": "2026-09-25",
+      "sparse_pages": [],
+      "split": "dev"
+    },
+    {
+      "id": "K254170",
+      "family": "deganiasiliconeltd",
+      "applicant": "Degania Silicone , Ltd.",
+      "device_name": "Percutaneous Endoscopic Gastrostomy (PEG) Kit",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K254170.pdf",
+      "sha256": "28c2e6a837beb0626fa4461b3037b6807da72d36b35e2e736372209ecae7d342",
+      "file": "raw/K254170.pdf",
+      "decision_date": "2026-03-20",
+      "sparse_pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "K260414",
+      "family": "techimagecoltd",
+      "applicant": "Tech-Image CO., LTD.",
+      "device_name": "Tech-Image Video Endoscope System",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260414.pdf",
+      "sha256": "f54e8c2e5fdd0f5f43e7a80fc178f9f7b1a03d9beb01feb588ed85b9bd3507f5",
+      "file": "raw/K260414.pdf",
+      "decision_date": "2026-06-10",
+      "sparse_pages": [
+        4
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "K253217",
+      "family": "medimagingintegratedsolutionincmiis",
+      "applicant": "Medimaging Integrated Solution, Inc (Miis)",
+      "device_name": "MiiS Horus Arthroscope  (EJA 100); MiiS Horus Endoscope Display System -Tablet (EDS 500); MiiS Horus Endoscope Display System -Video Box (EVS 700)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253217.pdf",
+      "sha256": "e8ee79146722e272f4aebe7dee131759074ec05c5e5697dce6178147d29b0241",
+      "file": "raw/K253217.pdf",
+      "decision_date": "2025-12-23",
+      "sparse_pages": [
+        4
+      ],
+      "split": "dev"
+    },
+    {
+      "id": "K251951",
+      "family": "guangzhouredpinemedicalinstrumentcoltd",
+      "applicant": "Guangzhou Red Pine Medical Instrument Co., Ltd.",
+      "device_name": "Single-Use Video Flexible Ureterorenoscope (RP-U-C03R9, RP-U-C03R3, RP-U-C03S9, RP-U-C03S3); Endoscopic Video Image Processor (RP-IPD-V2000EF); Endoscopic Video Image Processor (RP-IPD-V1000F)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251951.pdf",
+      "sha256": "932ef3b5a64758e1f62feb918d3c2e8cb472f23da664e0a85010a97a0e732d07",
+      "file": "raw/K251951.pdf",
+      "decision_date": "2025-12-16",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    {
+      "id": "K261573",
+      "family": "aktormedgmbh",
+      "applicant": "Aktormed GmbH",
+      "device_name": "ENDOSCOPE HOLDER (182214)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261573.pdf",
+      "sha256": "67877372baf43f90965a55ae653b12859656ee972a91657e50e62286dc773bc8",
+      "file": "raw/K261573.pdf",
+      "decision_date": "2026-07-20",
+      "sparse_pages": [
+        4,
+        5,
+        6
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K262262",
+      "family": "neptunemedicalinc",
+      "applicant": "Neptune Medical, Inc.",
+      "device_name": "Pathfinder Endoscope Overtube",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K262262.pdf",
+      "sha256": "af837b6b08e09bc9826a5e647e6ac88aa3b9ea1b021fcbe1aa2053edd0f35efb",
+      "file": "raw/K262262.pdf",
+      "decision_date": "2026-09-18",
+      "sparse_pages": [
+        4
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K252793",
+      "family": "jiangsujiyuanmedicaltechnologycoltd",
+      "applicant": "Jiangsu Jiyuan Medical Technology Co., Ltd.",
+      "device_name": "ARMI® Endoscopic Video Image Processor (JY-MIP-3000); ARMI® Single-Use Hysteroscope (SH-01A, SH-02A, SH-03A, SH-04A, SH-05A, SH-01B, SH-02B, SH-03B, SH-04B, SH-01C, SH-02C, SH-03C, SH-04C)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252793.pdf",
+      "sha256": "cbcbebfe369e83b93ddfd61671d927b030dc24ea013966a08258934e51ab40c1",
+      "file": "raw/K252793.pdf",
+      "decision_date": "2025-12-18",
+      "sparse_pages": [
+        4
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K260567",
+      "family": "fujifilmcorporation",
+      "applicant": "Fujifilm Corporation",
+      "device_name": "EW10-EC02 Endoscopy Support Program",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260567.pdf",
+      "sha256": "8046ca1193238bd7791453eee258bba85427534df0b8850bfaf5231cc02fdc4f",
+      "file": "raw/K260567.pdf",
+      "decision_date": "2026-08-07",
+      "sparse_pages": [
+        4,
+        5,
+        6
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K253184",
+      "family": "zhuhaiweseemeditechcoltd",
+      "applicant": "Zhuhai Wesee Meditech Co., Ltd.",
+      "device_name": "Video Rhinolaryngoscope System (Disposable Video Rhinolaryngoscope SP11A Endoscopic Video Processor M110B)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253184.pdf",
+      "sha256": "a7015ca84947c520b52ca94d5e2f4b3dcea697930e9ebe283306c5b2314f161a",
+      "file": "raw/K253184.pdf",
+      "decision_date": "2026-03-25",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    {
+      "id": "K253134",
+      "family": "lagisenterprisecoltd",
+      "applicant": "Lagis Enterprise Co., Ltd.",
+      "device_name": "LAGIS Endoscopic Instruments- Scissors (EI-330S EI-330S-T EI-330MS EI-330MS-T)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253134.pdf",
+      "sha256": "8074ab9430c64afc3a22f266b7739bce4e5f07e642342bb63632cb3a22451cd8",
+      "file": "raw/K253134.pdf",
+      "decision_date": "2026-05-20",
+      "sparse_pages": [
+        4
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K260573",
+      "family": "evoendoinc",
+      "applicant": "EvoEndo, Inc.",
+      "device_name": "EvoEndo Single-Use Endoscopy System",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K260573.pdf",
+      "sha256": "0162562bd1ade0495e63cfe16d090e42810a52681165eb79100da49fde1f125d",
+      "file": "raw/K260573.pdf",
+      "decision_date": "2026-04-21",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    {
+      "id": "K253892",
+      "family": "strausssurgicalusa",
+      "applicant": "Strauss Surgical USA",
+      "device_name": "Strauss Surgical Cystoscopes & Hysteroscopes (STS-2040-302ASA HD-endoscope, 4 x 302 mm, view. Dir. 0°, standard, autoclavable); Strauss Surgical Cystoscopes & Hysteroscopes (STS-2040-302AA HD-endoscope, 4 x 302 mm, view. Dir. 0°, wide angle, autoclavable); Strauss Surgical Cystoscopes & Hysteroscopes (STS-2040-302BA HD-endoscope, 4 x 302 mm, view. Dir. 30°, wide angle, autoclavable); Strauss Surgical Cystoscopes & Hysteroscopes (STS-2040-302BSA HD-endoscope, 4 x 302 mm, view. Dir. 30°,",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253892.pdf",
+      "sha256": "03de7744b9e0c2a216bac0be5593f065a084292ba0f68c80b805457849251b35",
+      "file": "raw/K253892.pdf",
+      "decision_date": "2026-04-16",
+      "sparse_pages": [
+        5,
+        6,
+        7
+      ],
+      "split": "test"
+    },
+    {
+      "id": "K253302",
+      "family": "wilsoncookmedicalinc",
+      "applicant": "Wilson-Cook Medical, Inc.",
+      "device_name": "Hemospray Endoscopic Hemostat (HEMO-[X])",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K253302.pdf",
+      "sha256": "21bb7ee1f666e77c06291342e77b6080b63215c182b93da0fdcbde1c63639434",
+      "file": "raw/K253302.pdf",
+      "decision_date": "2026-06-02",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    {
+      "id": "K261791",
+      "family": "steris",
+      "applicant": "Steris",
+      "device_name": "MEDIVATORS ADVANTAGE NXT Automated Endoscope Reprocessor",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf26/K261791.pdf",
+      "sha256": "39544cf87343edf25f91a0f43d736cefa036dfa4e33df23222a72a6ec07e9204",
+      "file": "raw/K261791.pdf",
+      "decision_date": "2026-10-02",
+      "sparse_pages": [],
+      "split": "test"
+    },
+    {
+      "id": "K251338",
+      "family": "scivitamedicaltechnologycoltd",
+      "applicant": "Scivita Medical Technology Co., Ltd.",
+      "device_name": "Cholangioscope Visualization System (Single-use Video Cholangioscope: SCV-P-01G, SCV-P-02G; Full HD Visualization Endoscopic Image Processor: HDVS-S300A, HDVS-S300B, HDVS-S300C, HDVS-S300D)",
+      "url": "https://www.accessdata.fda.gov/cdrh_docs/pdf25/K251338.pdf",
+      "sha256": "42641436b184d37cfd1b238d98a5e45842d75e7d4517931d3fd1827437e5755e",
+      "file": "raw/K251338.pdf",
+      "decision_date": "2026-01-20",
+      "sparse_pages": [
+        5,
+        6,
+        7
+      ],
+      "split": "test"
+    }
+  ],
+  "split_hash": "af7f0c8da34e74cc9f4308e7367ad20f18f2558ef261d00d762f055f5eb610f4",
+  "grouping": "one document per normalized FDA applicant; 8 dev / 12 test",
+  "failures": []
+}

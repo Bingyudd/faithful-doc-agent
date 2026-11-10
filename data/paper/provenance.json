@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-07",
+  "papers": [
+    {"repo": "bryant-nn/Template-Based-Financial-Report-Generation", "commit": "2f109d67d3d9def02c4e57bc285e1fc31bf1afcc", "paper": "https://arxiv.org/abs/2504.14233", "venue": "SIGIR 2025", "license": "MIT", "usage": "method adaptation with changed model, domain and retrieval"},
+    {"repo": "weixuzhang/CFB", "commit": "f7e5f38c577fabd5428cba25b515c21e27a6592a", "paper": "https://aclanthology.org/2026.findings-acl.2121/", "venue": "ACL Findings 2026", "license": "not declared on inspected repository root", "usage": "independent implementation from equations; no upstream source copied"}
+  ],
+  "model": {"id": "Qwen/Qwen2.5-1.5B-Instruct", "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"},
+  "small_model": {"id": "Qwen/Qwen2.5-0.5B-Instruct", "revision": "7ae557604adf67be50417f59c2c2f167def9a775"},
+  "verification": "git ls-remote HEAD and official Hugging Face model API; GitHub REST metadata rate-limited"
+}

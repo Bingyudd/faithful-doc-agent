@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local model assets, adapters and raw runs (never shipped)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.sqlite
+*.sqlite3
+*.npz
+projects/document_agent/artifacts/
+projects/document_agent/data/
+artifacts/paper/raw/
+artifacts/paper/ui/
+artifacts/paper/downloads/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

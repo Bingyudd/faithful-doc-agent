@@ -1,0 +1,10 @@
+{
+  "interpreter": "C:\\Users\\Bingyu\\666\\Anaconda\\envs\\ai-job-search\\python.exe",
+  "device": "CPU unit tests; GPU inference validated separately",
+  "tests": 9,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "output": "test_author_semantic_mapping_is_explicit (projects.faithful_decoding.test_core.CoreTests.test_author_semantic_mapping_is_explicit) ... ok\ntest_boost_only_source_and_mean_scale (projects.faithful_decoding.test_core.CoreTests.test_boost_only_source_and_mean_scale) ... ok\ntest_config_validation (projects.faithful_decoding.test_core.CoreTests.test_config_validation) ... ok\ntest_invalid_normalization_rejected (projects.faithful_decoding.test_core.CoreTests.test_invalid_normalization_rejected) ... ok\ntest_jsd_identity_symmetry_bounds (projects.faithful_decoding.test_core.CoreTests.test_jsd_identity_symmetry_bounds) ... ok\ntest_real_qwen_cache_and_last_query_attention (projects.faithful_decoding.test_core.CoreTests.test_real_qwen_cache_and_last_query_attention) ... ok\ntest_repeated_occurrences_sum (projects.faithful_decoding.test_core.CoreTests.test_repeated_occurrences_sum) ... ok\ntest_semantic_matches_pairwise (projects.faithful_decoding.test_core.CoreTests.test_semantic_matches_pairwise) ... ok\ntest_zero_bias_and_empty_source (projects.faithful_decoding.test_core.CoreTests.test_zero_bias_and_empty_source) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 19.207s\n\nOK\n"
+}

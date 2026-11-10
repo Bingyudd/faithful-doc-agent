@@ -1,0 +1,20 @@
+{
+  "documents": [
+    {
+      "role": "Agent开发",
+      "pdf_sha256": "3264b339e372c1631daba1ea21858da77dabe38a24932b9345d061e42a33c684",
+      "render": "tmp/resume_qa/character_fix_agent.png",
+      "reviewer": "assistant visual inspection",
+      "date": "2026-11-08",
+      "result": "single A4 page; before/after punctuation intact on one line; LoRA case clear; no clipping or overlap"
+    },
+    {
+      "role": "大模型算法",
+      "pdf_sha256": "b137c498e1d38a0a6740ad3119b84e6ac397ef1166ef10a65c5bb5b089b32374",
+      "render": "tmp/resume_qa/character_fix_algorithm.png",
+      "reviewer": "assistant visual inspection",
+      "date": "2026-11-08",
+      "result": "single A4 page; before/after punctuation intact on one line; LoRA case clear; no clipping or overlap"
+    }
+  ]
+}

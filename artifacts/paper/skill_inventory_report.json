@@ -1,0 +1,111 @@
+{
+  "git_tracked_python_files": 69,
+  "files": [
+    "interview_prep/code/01_shift_ce.py",
+    "interview_prep/code/02_preference_losses.py",
+    "interview_prep/code/03_gqa_cache.py",
+    "interview_prep/code/04_rope.py",
+    "interview_prep/code/05_assistant_mask.py",
+    "interview_prep/code/06_x_overlap.py",
+    "interview_prep/demo.py",
+    "interview_prep/verify_prep.py",
+    "projects/document_agent/download_sources.py",
+    "projects/document_agent/download_tokenizer.py",
+    "projects/document_agent/evaluate_live.py",
+    "projects/document_agent/evidence_core.py",
+    "projects/document_agent/live_provider.py",
+    "projects/document_agent/local_dependencies.py",
+    "projects/document_agent/plot_training.py",
+    "projects/document_agent/post_training.py",
+    "projects/document_agent/preference_data.py",
+    "projects/document_agent/record_environment.py",
+    "projects/document_agent/run_checks.py",
+    "projects/document_agent/run_project.py",
+    "projects/document_agent/summarize_experiments.py",
+    "projects/document_agent/test_evidence_core.py",
+    "projects/document_agent/test_gpu_training.py",
+    "projects/document_agent/test_live_provider.py",
+    "projects/document_agent/test_post_training.py",
+    "projects/document_agent/test_preference_data.py",
+    "projects/document_agent/test_token_masking.py",
+    "projects/document_agent/test_tool_protocol.py",
+    "projects/document_agent/test_transformer_whitebox.py",
+    "projects/document_agent/token_masking.py",
+    "projects/document_agent/tool_protocol.py",
+    "projects/document_agent/train_lora.py",
+    "projects/document_agent/transformer_whitebox.py",
+    "projects/document_agent/validate_algorithms.py",
+    "projects/document_agent/verify_gpu_checkpoint.py",
+    "projects/document_agent/verify_protocol.py",
+    "projects/faithful_decoding/__init__.py",
+    "projects/faithful_decoding/cli.py",
+    "projects/faithful_decoding/core.py",
+    "projects/faithful_decoding/test_core.py",
+    "projects/paper_common/__init__.py",
+    "projects/paper_common/evaluate.py",
+    "projects/paper_common/factkb.py",
+    "projects/paper_common/io.py",
+    "projects/paper_common/prepare_data.py",
+    "projects/paper_common/provider.py",
+    "projects/paper_common/technical_data.py",
+    "projects/paper_common/test_integrity.py",
+    "projects/paper_common/text.py",
+    "projects/report_agent/__init__.py",
+    "projects/report_agent/app.py",
+    "projects/report_agent/cli.py",
+    "projects/report_agent/engine.py",
+    "projects/report_agent/evidence.py",
+    "projects/report_agent/review.py",
+    "projects/report_agent/schema.py",
+    "projects/report_agent/test_engine.py",
+    "projects/report_agent/test_ui.py",
+    "resumes/build_blackwhite_resumes.py",
+    "resumes/update_from_prototype.py",
+    "tools/download_evaluator.py",
+    "tools/finalize_paper.py",
+    "tools/freeze_paper.py",
+    "tools/paper_skills.py",
+    "tools/record_checks.py",
+    "tools/run_gpu_campaign.py",
+    "tools/run_report_campaign.py",
+    "tools/source_quality.py",
+    "tools/validate_paper_delivery.py"
+  ],
+  "git_head_at_collection": "94c56e68b0bd37b7026b1e3b11ae58a4c48b3be2",
+  "scope": "Git-tracked files at collection time; untracked pending edits are not silently counted",
+  "dependencies": {
+    "environment-paper.lock.txt": {
+      "sha256": "09f7ec48c52f6fe4fa71bcf545d162d3b3050ada55b820f0e3c6faf597f8b3ab",
+      "text": "absl-py==2.5.1\naltair==6.3.0\nannotated-doc==0.0.5\nannotated-types==0.8.0\nanyio==4.16.0\nattrs==26.1.0\ncertifi==2026.10.23\ncffi==2.1.1\ncharset-normalizer==3.5.2\nclick==8.5.0\ncloudpickle==3.1.2\ncolorama==0.4.6\ncryptography==50.0.2\ndefusedxml==0.7.1\nfilelock==4.2.9\nfsspec==2026.9.0\nh11==0.16.0\nhuggingface_hub==0.36.2\nidna==3.20\niniconfig==2.3.1\nitsdangerous==2.2.0\nJinja2==3.1.6\njoblib==1.6.0\njsonschema==4.26.0\njsonschema-specifications==2025.9.1\nlxml==6.1.3\nmarkdown-it-py==4.2.0\nMarkupSafe==3.0.4\nmdurl==0.1.2\nnarwhals==2.28.0\nnltk==3.10.4\nnumpy==2.4.6\npackaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1785888127/work\npandas==3.1.1\npdfminer.six==20251230\npdfplumber==0.11.9\npillow==13.0.0\npluggy==1.7.0\nprotobuf==7.36.2\npyarrow==26.0.1\npycparser==3.12\npydantic==2.14.3\npydantic_core==2.50.4\npydeck==0.9.3\nPygments==2.21.0\npypdf==6.21.4\npypdfium2==5.15.0\npytest==8.4.2\npython-dateutil==4.0.0\npython-docx==1.2.0\npython-multipart==0.0.33\nPyYAML==6.0.3\nreferencing==0.37.0\nregex==2026.9.29\nreportlab==4.5.1\nrequests==2.34.2\nrich==14.3.4\nrouge_score==0.1.2\nrpds-py==2026.9.1\nshellingham==1.5.4\nsix==1.17.0\nstarlette==1.10.0\nstreamlit==1.67.0\ntqdm==4.70.1\ntyper==0.28.0\ntyping-inspection==0.4.5\ntyping_extensions==4.16.0\ntzdata==2026.6\nurllib3==2.8.0\nuvicorn==0.54.0\nwatchdog==7.1.0\nwebsockets==17.4\n"
+    },
+    "environment-paper.yml": {
+      "sha256": "3f28e2d60127d982758f6e72eb3e8e6747aeea3e89f2268e0f710170b3690f6d",
+      "text": "name: ai2resu-paper\nchannels:\n  - defaults\ndependencies:\n  - python=3.11\n  - pip\n  - pip:\n      - pdfplumber==0.11.9\n      - pydantic>=2.10,<3\n      - streamlit>=1.40,<2\n      - pytest>=8,<9\n      - typer>=0.12,<1\n      - rich>=13,<15\n      - jinja2>=3.1,<4\n      - reportlab>=4,<5\n      - python-docx>=1.1,<2\n      - pypdf>=5,<7\n      - huggingface-hub>=0.30,<1\n      - rouge-score==0.1.2\n      - pyarrow>=17\n\n"
+    },
+    "environment.yml": {
+      "sha256": "d0d33815dd5ffdbb6a561740314bf537b5f654f76b4f1851dc7ccb3a2585c1c1",
+      "text": "name: ai-job-search\nchannels:\n  - conda-forge\ndependencies:\n  - python=3.11\n  - pip\n  - pip:\n      - --extra-index-url https://download.pytorch.org/whl/cpu\n      - pdfplumber==0.11.9\n      - pydantic==2.14.1\n      - transformers==4.57.6\n      - Jinja2==3.1.6\n      - tokenizers==0.22.2\n      - numpy==2.4.6\n      - python-docx==1.2.0\n      - reportlab==5.1.0\n      - pypdf==6.21.4\n      - torch==2.9.1+cpu\n"
+    },
+    "memory/environment_snapshot.json": {
+      "sha256": "afa2228226057c6a4345c4b0dd9bb0a1fa797f014f732c24cf7a37008c324f02",
+      "text": "{\n  \"verified_on\": \"2026-11-05\",\n  \"timezone\": \"Asia/Shanghai\",\n  \"scope\": \"Original 2026-11-05 inventory plus separately recorded 2026-11-06 live API/GPU training runtime\",\n  \"workspace\": {\n    \"windows\": \"C:\\\\Users\\\\Bingyu\\\\666\\\\work\\\\re'su\\\\AI2Resu\",\n    \"wsl\": \"/mnt/c/Users/Bingyu/666/work/re'su/AI2Resu\"\n  },\n  \"gpu\": {\n    \"name\": \"NVIDIA GeForce RTX 4060 Laptop GPU\",\n    \"memory_total_mib\": 8188,\n    \"driver\": \"581.29\"\n  },\n  \"windows\": {\n    \"shell\": \"PowerShell\",\n    \"conda_executable\": \"C:/Users/Bingyu/666/Anaconda/Scripts/conda.exe\",\n    \"conda_version\": \"24.11.3\",\n    \"project_environment\": \"ai-job-search\",\n    \"python_executable\": \"C:/Users/Bingyu/666/Anaconda/envs/ai-job-search/python.exe\",\n    \"python_version\": \"3.11.15\",\n    \"torch_version\": \"2.9.1+cpu\",\n    \"torch_cuda_build\": null,\n    \"cuda_available\": false,\n    \"transformers\": \"4.57.6\",\n    \"tokenizers\": \"0.22.2\",\n    \"bare_python_resolves_to\": \"C:/Python314/python.exe\",\n    \"other_conda_environments\": [\n      \"base\",\n      \"cvd_app\"\n    ],\n    \"project_environment_spec\": \"environment.yml\"\n  },\n  \"wsl\": {\n    \"default_distribution\": \"Ubuntu-22.04\",\n    \"wsl_version\": 2,\n    \"os_release\": \"Ubuntu 22.04.5 LTS\",\n    \"kernel\": \"6.18.40.1-microsoft-standard-WSL2\",\n    \"user\": \"bingyu\",\n    \"home\": \"/home/bingyu\",\n    \"distribution_storage\": \"D:/wsl/Ubuntu-22.04/\",\n    \"other_distributions\": [\n      \"docker-desktop\"\n    ],\n    \"system_python\": {\n      \"executable\": \"/usr/bin/python3\",\n      \"version\": \"3.10.12\"\n    },\n    \"conda_executable\": \"/home/bingyu/miniconda3/bin/conda\",\n    \"conda_on_noninteractive_path\": false,\n    \"conda_environments\": [\n      {\n        \"name\": \"base\",\n        \"python_executable\": \"/home/bingyu/miniconda3/bin/python\",\n        \"python_version\": \"3.13.12\",\n        \"torch_installed_metadata\": false\n      },\n      {\n        \"name\": \"d2l\",\n        \"python_executable\": \"/home/bingyu/miniconda3/envs/d2l/bin/python\",\n        \"python_version\": \"3.9.25\",\n        \"torch_version\": \"2.7.1+cu118\",\n        \"torch_cuda_build\": \"11.8\",\n        \"cuda_available\": true,\n        \"cuda_tensor_probe\": {\n          \"device\": \"cuda:0\",\n          \"four_ones_sum\": 4.0\n        },\n        \"packages\": {\n          \"numpy\": \"1.21.5\"\n        },\n        \"document_agent_end_to_end_verified\": false\n      },\n      {\n        \"name\": \"physical_ex\",\n        \"python_executable\": \"/home/bingyu/miniconda3/envs/physical_ex/bin/python\",\n        \"python_version\": \"3.11.15\",\n        \"torch_version\": \"2.11.0+cu130\",\n        \"torch_cuda_build\": \"13.0\",\n        \"cuda_available\": true,\n        \"cuda_tensor_probe\": {\n          \"device\": \"cuda:0\",\n          \"four_ones_sum\": 4.0\n        },\n        \"packages\": {\n          \"transformers\": \"4.57.6\",\n          \"trl\": \"0.13.0\",\n          \"accelerate\": \"1.14.0\",\n          \"numpy\": \"1.26.4\"\n        },\n        \"packages_not_found_in_metadata\": [\n          \"peft\",\n          \"bitsandbytes\"\n        ],\n        \"document_agent_end_to_end_verified\": false\n      }\n    ],\n    \"windows_wslconfig\": {\n      \"networkingMode\": \"Mirrored\",\n      \"firewall\": false\n    },\n    \"linux_wsl_conf\": {\n      \"systemd\": true,\n      \"default_user\": \"bingyu\"\n    },\n    \"dedicated_document_agent_training_environment_created\": true\n  },\n  \"storage_observation_gib\": {\n    \"C\": {\n      \"total\": 449.34,\n      \"free\": 34.67\n    },\n    \"D\": {\n      \"total\": 931.5,\n      \"free\": 84.01\n    },\n    \"note\": \"Time-sensitive snapshot; WSL virtual filesystem free space is not host drive capacity\"\n  },\n  \"project_evidence\": {\n    \"last_full_test_report_date\": \"2026-11-02\",\n    \"tests\": 65,\n    \"failures\": 0,\n    \"errors\": 0,\n    \"skipped\": 0,\n    \"pretrained_model_inference_or_training_completed\": false,\n    \"paid_api_budget_available\": false\n  },\n  \"latest_update_on\": \"2026-11-06\",\n  \"project_training_runtime_20261106\": {\n    \"python_executable\": \"/home/bingyu/.venvs/ai2resu-gpu/bin/python\",\n    \"environment_kind\": \"venv --system-site-packages from physical_ex\",\n    \"base_environment_modified\": false,\n    \"packages\": {\n      \"torch\": \"2.11.0\",\n      \"transformers\": \"4.57.6\",\n      \"peft\": \"0.17.1\",\n      \"accelerate\": \"1.14.0\",\n      \"tokenizers\": \"0.22.2\",\n      \"pdfplumber\": \"0.11.9\",\n      \"pydantic\": \"2.11.5\"\n    },\n    \"required_process_environment\": {\n      \"LD_LIBRARY_PATH\": \"/home/bingyu/miniconda3/envs/physical_ex/lib\"\n    },\n    \"model\": \"Qwen/Qwen2.5-0.5B-Instruct\",\n    \"revision\": \"7ae557604adf67be50417f59c2c2f167def9a775\",\n    \"training_stages\": 2,\n    \"optimizer_steps\": 80,\n    \"cuda_training_verified\": true,\n    \"checkpoint_reload_verified\": true,\n    \"sft_max_memory_allocated_bytes\": 1326694912,\n    \"dpo_max_memory_allocated_bytes\": 1389502464\n  },\n  \"local_model_endpoint_20261106\": {\n    \"url\": \"http://127.0.0.1:8788/v1\",\n    \"tested_model_ids\": [\n      \"deepseek-v4.1-flash\",\n      \"hy4-preview-f\"\n    ],\n    \"live_model_requests\": 411,\n    \"credentials_stored_here\": false\n  }\n}\n"
+    },
+    "projects/document_agent/artifacts/environment_report.json": {
+      "sha256": "731263501a8cfb841ca3da058a7942ce1353974703c68dbdf6e7faa4756ca4e9",
+      "text": "{\n  \"environment\": \"ai-job-search\",\n  \"python_version\": \"3.11.15\",\n  \"python_executable\": \"C:\\\\Users\\\\Bingyu\\\\666\\\\Anaconda\\\\envs\\\\ai-job-search\\\\python.exe\",\n  \"conda_prefix\": \"C:\\\\Users\\\\Bingyu\\\\666\\\\Anaconda\\\\envs\\\\ai-job-search\",\n  \"conda_meta_present\": true,\n  \"legacy_deps_on_sys_path\": false,\n  \"packages\": {\n    \"pdfplumber\": \"0.11.9\",\n    \"pydantic\": \"2.14.1\",\n    \"transformers\": \"4.57.6\",\n    \"tokenizers\": \"0.22.2\",\n    \"Jinja2\": \"3.1.6\",\n    \"numpy\": \"2.4.6\",\n    \"python-docx\": \"1.2.0\",\n    \"reportlab\": \"5.1.0\",\n    \"pypdf\": \"6.21.4\",\n    \"torch\": \"2.9.1+cpu\"\n  },\n  \"gpu_hardware\": [\n    {\n      \"name\": \"NVIDIA GeForce RTX 4060 Laptop GPU\",\n      \"memory_total_mib\": 8188,\n      \"memory_free_mib\": 7902,\n      \"driver\": \"581.29\"\n    }\n  ]\n}"
+    },
+    "projects/document_agent/requirements-algorithm.txt": {
+      "sha256": "ce28d8f143d0e2f74b7c728ced4d5fed20a96e0f952f67db3924bab6f4b68b0f",
+      "text": "--extra-index-url https://download.pytorch.org/whl/cpu\ntorch==2.9.1+cpu\n"
+    },
+    "projects/document_agent/requirements-tokenizer.txt": {
+      "sha256": "4167d83a5d977f2f2cc3b4c9c788ffdc3fb4da73797447fd7d9f9496933efeba",
+      "text": "transformers==4.57.6\nJinja2==3.1.6\n"
+    },
+    "projects/document_agent/requirements.txt": {
+      "sha256": "ee4239194cff45976b1841737e62e1db1dfe524237611648cdd7b209f43ee11f",
+      "text": "pdfplumber==0.11.9\npydantic==2.14.1\n"
+    }
+  },
+  "ownership": "Not inferred from Git author share; imported papers and prior code recorded separately."
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": {
+    "expected": 2800,
+    "observed": 2800,
+    "complete": 2800,
+    "scored": 2800,
+    "evaluated_records": 2800
+  },
+  "reports": {
+    "expected": 128,
+    "observed": 128,
+    "complete": 109,
+    "scored": 91,
+    "evaluated_records": 109
+  },
+  "human_review": 0,
+  "note": "Failures count as observed runs, never as successful generations. Human annotations remain pending until supplied.",
+  "machine_generation_complete": true,
+  "machine_campaign_complete": true
+}

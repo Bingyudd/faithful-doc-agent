@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "entries_checked": 21,
+  "metric_values_checked": 53,
+  "project_bullets_shared_before": 8,
+  "project_bullets_shared_after": 0,
+  "definition": "exact matching project bullet strings, not a claimed character-level similarity percentage",
+  "source_audit_sha256": "25bb189201722eedb650fd3ecbcdbf928abfd68b6cefe4312ccb50020de34f4e",
+  "frozen_experiment_code_unchanged": true,
+  "pdf_checks": [
+    {
+      "role": "Agent开发",
+      "pages": 1,
+      "all_ledger_sentences_extract_exactly": true,
+      "sha256": "2ac2b498e7ead557cd8bab2713449d7a60518d1ff33fff83272dcf39ea7e7e1b"
+    },
+    {
+      "role": "大模型算法",
+      "pages": 1,
+      "all_ledger_sentences_extract_exactly": true,
+      "sha256": "db5bbcdeda22ce16e65979cd8c2dcce13f29332a7567ec3885f7561338801d81"
+    }
+  ]
+}

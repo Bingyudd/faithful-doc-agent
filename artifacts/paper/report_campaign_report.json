@@ -1,0 +1,32 @@
+{
+  "steps": [
+    {
+      "command": [
+        "projects.report_agent.cli",
+        "evaluate",
+        "--split",
+        "test",
+        "--workers",
+        "4"
+      ],
+      "exit_code": 0,
+      "log": "artifacts\\paper\\raw\\campaign_reports_v3_0.log"
+    },
+    {
+      "command": [
+        "projects.report_agent.cli",
+        "evaluate",
+        "--split",
+        "test",
+        "--workers",
+        "4",
+        "--model",
+        "hy4-preview-f",
+        "--limit",
+        "3"
+      ],
+      "exit_code": 0,
+      "log": "artifacts\\paper\\raw\\campaign_reports_v3_1.log"
+    }
+  ]
+}

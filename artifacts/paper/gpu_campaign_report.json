@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "command": [
+        "projects.faithful_decoding.cli",
+        "evaluate",
+        "--model",
+        "main",
+        "--dataset",
+        "data/paper/xsum_dev.jsonl"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_0.log"
+    },
+    {
+      "command": [
+        "projects.faithful_decoding.cli",
+        "evaluate",
+        "--model",
+        "main",
+        "--dataset",
+        "data/paper/technical_dev.jsonl"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_1.log"
+    },
+    {
+      "command": [
+        "projects.faithful_decoding.cli",
+        "evaluate",
+        "--model",
+        "main",
+        "--dataset",
+        "data/paper/xsum_test.jsonl"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_2.log"
+    },
+    {
+      "command": [
+        "projects.faithful_decoding.cli",
+        "evaluate",
+        "--model",
+        "main",
+        "--dataset",
+        "data/paper/technical_test.jsonl"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_3.log"
+    },
+    {
+      "command": [
+        "projects.faithful_decoding.cli",
+        "evaluate",
+        "--model",
+        "small",
+        "--dataset",
+        "data/paper/xsum_test.jsonl",
+        "--limit",
+        "50"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_4.log"
+    },
+    {
+      "command": [
+        "projects.paper_common.factkb",
+        "--input",
+        "artifacts/paper/raw/decoding_reference",
+        "--output",
+        "artifacts/paper/decoding_factkb_report.json"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/paper/raw/campaign_reference_gpu_5.log"
+    }
+  ]
+}

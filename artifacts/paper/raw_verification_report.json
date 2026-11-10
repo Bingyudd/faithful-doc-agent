@@ -1,0 +1,9 @@
+{
+  "decoding_outputs": 2800,
+  "report_attempts": 128,
+  "report_completed": 109,
+  "identities_verified": true,
+  "coverage_verified": true,
+  "resume_counts_verified": true,
+  "raw_artifact_manifest_hash": "90290fb2cfd7c91b2ce307e4510e1ef5782c7d2d3f5f9bf8219f9b3fb0983c36"
+}
