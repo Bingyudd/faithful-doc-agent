@@ -12,13 +12,13 @@
       "role": "Agent开发",
       "pages": 1,
       "all_ledger_sentences_extract_exactly": true,
-      "sha256": "2ac2b498e7ead557cd8bab2713449d7a60518d1ff33fff83272dcf39ea7e7e1b"
+      "sha256": "ac71e1fd428d2025f54932b5822b5d383f640b641ace57cd76e4bb20192a9a98"
     },
     {
       "role": "大模型算法",
       "pages": 1,
       "all_ledger_sentences_extract_exactly": true,
-      "sha256": "db5bbcdeda22ce16e65979cd8c2dcce13f29332a7567ec3885f7561338801d81"
+      "sha256": "733e080f6564690fb32c861d28249ff3a8e0f4e8ecba02ddb073bf04ff184f76"
     }
   ]
 }

@@ -80,3 +80,24 @@ flowchart LR
 | 显存 | 峰值 allocated ≈ 1.24–1.35 GiB | 单卡 8GB；不是整卡占用 |
 
 **边界**：训练与评测都在同一份文档、同一套模板内完成，属于同源字段留出，不能当作跨文档泛化证据；生成评测使用固定黄金工具观测，不代表自主工具调用能力。
+
+## 四、仓库与两条线的演进
+
+```mermaid
+flowchart TB
+    subgraph 实习线
+        A1[实习：注册资料整理<br/>沙特/美国/巴西 · 5 类产品] --> A2[取证与审校原型<br/>projects/document_agent<br/>PDF 取证 + 工具协议 + 证据核验]
+        A2 --> A3[真实 API 评测<br/>80 会话 / 411 请求]
+        A3 --> A4[0.5B LoRA SFT/DPO<br/>96/24 字段留出]
+    end
+    subgraph 论文线
+        A4 --> B1[论文方法落地<br/>projects/faithful_decoding<br/>CAD 双流解码]
+        A4 --> B2[projects/report_agent<br/>受控报告 Agent]
+        A4 --> B3[projects/paper_common<br/>数据冻结与评测]
+        B1 --> C[双岗简历与面试材料<br/>指标账本 53 项]
+        B2 --> C
+        B3 --> C
+    end
+```
+
+`projects/document_agent` 是两条线共用的底座，论文线没有改动它的代码，只在它之上新增了三个包；`main` 分支保留实习线与交接记录，论文分支（`codex/paper-driven-agent-algorithm`）承载两个新项目与简历材料。
