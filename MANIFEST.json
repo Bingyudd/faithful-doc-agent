@@ -101,8 +101,7 @@
     "publish/ARCHITECTURE.md → ARCHITECTURE.md",
     "publish/FAILURES.md → FAILURES.md",
     "publish/REPRODUCE.md → REPRODUCE.md",
-    "RESULTS.md (generated)",
-    "SLIDES.pptx (generated deck)"
+    "RESULTS.md (generated)"
   ],
   "personal_matches": [],
   "results_generated_from": "artifacts/paper/resume_metric_audit.json"

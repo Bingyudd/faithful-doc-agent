@@ -45,8 +45,10 @@ tools/                      指标账本、交付校验、复现脚本
 ## 示例输出与讲解材料
 
 - 终稿样例：[rtifacts/paper/examples/reviewed_report.md](artifacts/paper/examples/reviewed_report.md)（含逐条引文与状态）
-- 8 页讲解 slides：[SLIDES.pptx](SLIDES.pptx)，由 	ools/build_slides.py 从指标账本生成，含讲稿备注
+- 结果总表：[RESULTS.md](RESULTS.md)（脚本从指标账本重算）
 - 本地审校界面：python -m streamlit run projects/report_agent/app.py（含 46 项人工复核表单，仅本机运行）
+
+讲解用的演示文稿不随仓库分发：它面向面试现场，由本机 	ools/build_slides.py 生成、	ools/verify_slides.py 校验。
 
 ## 设计与取舍文档
 

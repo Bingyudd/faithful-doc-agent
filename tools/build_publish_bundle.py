@@ -155,10 +155,6 @@ def main():
             copied.append(f'publish/{extra} → {extra}')
     (args.out / 'RESULTS.md').write_text(results_markdown(audit), encoding='utf-8')
     copied.append('RESULTS.md (generated)')
-    deck = ROOT / 'output/slides/邓任_项目讲解.pptx'
-    if deck.is_file():
-        shutil.copy2(deck, args.out / 'SLIDES.pptx')
-        copied.append('SLIDES.pptx (generated deck)')
     leaked = []
     for path in args.out.rglob('*'):
         # 只扫我们自己写的文本；data/ 下是公开监管文档原文，里面的机构邮箱不属于个人信息
